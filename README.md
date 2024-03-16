@@ -25,7 +25,7 @@ Employee-DB is a desktop application built with PyQt5 for managing employee data
    ```
 4. Run the application:
    ```
-   python main.py
+   python run.py
    ```
 
 ## Usage:
