@@ -48,6 +48,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.choose_2.hide()
 
     def action(self, text):
+        if self.db.check_bd():
+            QMessageBox.warning(self, "Warning", "There are no data in the database.\nGenerate randomly or add "
+                                                 "manually.")
+            return
         result = ""
         spltext = text.split(" ")
         if "most" in spltext:

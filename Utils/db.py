@@ -103,3 +103,10 @@ class DatabaseManager:
                 "SELECT * FROM employee WHERE (name, surname, age) IN (SELECT name, surname, age FROM employee GROUP "
                 "BY name, surname, age HAVING COUNT(*) > 1)")
             return cursor.fetchall()
+        
+    def check_bd(self):
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM employee")
+            data = cursor.fetchall()
+        return True if not data else False
