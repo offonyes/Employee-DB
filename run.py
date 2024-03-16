@@ -1,6 +1,4 @@
-from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
 from Windows.window import MainWindow
 from qt_material import apply_stylesheet
 import sys
@@ -11,7 +9,6 @@ def run_app():
         app = QApplication(sys.argv)
         window = MainWindow()
         apply_stylesheet(app, theme='dark_lightgreen.xml')
-
         window.show()
         sys.exit(app.exec_())
     except Exception as e:
