@@ -1,16 +1,16 @@
-**Employee-DB**
+#Employee-DB
 
-**Description:**
+##Description:
 Employee-DB is a desktop application built with PyQt5 for managing employee databases effectively. It provides a user-friendly interface to perform various operations such as adding, deleting, updating, and searching employee records. Additionally, users can conduct statistical analyses on the database, including finding the most common names or surnames, calculating the average age of employees, comparing ages by ID, and more. The application also offers the functionality to generate random data for testing purposes.
 
-**Features:**
+##Features:
 - **Record Management:** Easily add, delete, and update employee records.
 - **Search Functionality:** Search for employees based on name, surname, and age criteria.
 - **Statistical Analysis:** Conduct various statistical analyses on the database.
 - **Age Comparison:** Compare the ages of employees using their unique IDs.
 - **Data Generation:** Generate random data to populate the database for testing.
 
-**Installation:**
+##Installation:
 1. Clone the repository:
    ```
    git clone https://github.com/offonyes/Employee-DB.git
@@ -28,17 +28,17 @@ Employee-DB is a desktop application built with PyQt5 for managing employee data
    python main.py
    ```
 
-**Usage:**
+##Usage:
 1. Launch the application.
 2. Use the main menu to navigate between different functionalities.
 3. Perform operations such as adding, deleting, updating, or searching for employee records as needed.
 4. Conduct statistical analyses or generate random data using the provided buttons.
 5. Save any changes made to the database as necessary.
 
-**Requirements:**
+##Requirements:
 - Python 3.12
 - PyQt5
 - qt_material
 
-**Contributing:**
+##Contributing:
 Contributions are welcome! Feel free to fork the repository, make necessary enhancements, and submit a pull request.
