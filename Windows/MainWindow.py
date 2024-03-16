@@ -5,6 +5,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(904, 600)
+        MainWindow.setWindowIcon(QtGui.QIcon("Assets\employee.png"))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout_4 = QtWidgets.QGridLayout(self.centralwidget)
@@ -244,7 +245,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Employee DB"))
         self.custom_button.setText(_translate("MainWindow", "Custom Database"))
         self.groupBox.setTitle(_translate("MainWindow", "Random"))
         self.label_4.setText(_translate("MainWindow", "Region:"))
