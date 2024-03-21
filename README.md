@@ -1,6 +1,6 @@
 # Employee-DB
 
-##Description:
+## Description:
 Employee-DB is a desktop application built with PyQt5 for managing employee databases effectively. It provides a user-friendly interface to perform various operations such as adding, deleting, updating, and searching employee records. Additionally, users can conduct statistical analyses on the database, including finding the most common names or surnames, calculating the average age of employees, comparing ages by ID, and more. The application also offers the functionality to generate random data for testing purposes.
 
 ## Features:
